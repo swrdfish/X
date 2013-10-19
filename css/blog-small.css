@@ -1,0 +1,209 @@
+
+
+body {
+    background: #2A2A2A;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+h3.blog-title {
+    color: #FFFFFF;
+    font-family: Roboto Slab,serif;
+    font-size: 3em;
+    font-weight: lighter;
+    margin: 0;
+    margin-left: -40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+span.blog-title {
+    background: none repeat scroll 0 0 #3A3A3A;
+    line-height: 1.2;
+}
+
+span.blog-title:hover {
+    background: none repeat scroll 0 0 #fff;
+    color: #2a2a2a;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px 100px;
+    background: #2a2a2a;
+}
+
+.blog-post img {
+    margin: 0 auto;
+    max-width: 100%;
+    display: block;
+}
+
+.blog-post {
+
+margin-bottom: 50px;
+}
+
+.blog-date {
+    background: none repeat scroll 0 0 #5A5A5A;
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-weight: lighter;
+    margin: 0;
+    margin-left: -40px;
+    padding: 0;
+}
+
+.blog-body {
+    color: #AAAAAA;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: lighter;
+    line-height: 22px;
+    margin-top: 30px;
+}
+
+.blog-readon {
+    background: #3a3a3a;
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+
+.blog-readon:hover {
+    background: #ffffff;
+    color: #2a2a2a;
+}
+
+#background-texture {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -99;
+    background: url('../image/1.png');
+    opacity: 0.3;
+}
+
+div.blog-next-prev {
+    margin-left: -40px;
+    margin-right: -40px;
+    padding: 0;
+    overflow: hidden;
+    background: #3a3a3a;
+    color: #aaaaaa;
+}
+
+span.blog-next, span.blog-prev {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.6em;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+span.blog-next:hover, span.blog-prev:hover {
+    background: #ffffff;
+    color: #2e2e2e;
+}
+
+span.blog-next {
+    float: right;
+}
+
+span.blog-prev {
+    float: left;
+}
+
+
+#nav ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#nav {
+    left: 1%;
+    line-height: 48px;
+    position: fixed;
+    top: 2%;
+    width: auto;
+}
+#nav > #logo {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #2E2E2E;
+    display: inline;
+    font-family: 'Limelight', cursive;
+    font-size: 1.6em;
+    font-weight: lighter;
+}
+.nav {
+    background: none repeat scroll 0 0 #2A2A2A;
+    color: #FFFFFF;
+    font-family: Roboto Slab;
+    font-size: 2.6em;
+    font-weight: lighter;
+}
+
+.nav:hover {
+    background: #FFFFFF;
+    color: #2e2e2e;
+}
+
+#disqus_thread {
+padding-top: 30px;
+border-top: 1px dashed #a1a1a1;
+}
+
+#share {
+margin-bottom: 10px;
+border-top: 1px dashed #a1a1a1;
+padding-top: 10px;
+margin-top: 50px;
+}
+
+#sthoverbuttons .sthoverbuttons-label {
+display: none;
+}
+
+#sthoverbuttons #sthoverbuttons-background {
+position: absolute;
+top: 0;
+width: 100%;
+z-index: 990000;
+height: 100%;
+opacity: 0;
+}
+
+#color-changer {
+position: fixed;
+z-index: 999;
+bottom: 1%;
+right: 8px;
+}
+
+#light-button {
+width: 50px;
+height: 20px;
+background: white;
+text-align: center;
+}
+
+
+#original-button {
+width: 50px;
+height: 20px;
+background: black;
+color: white;
+text-align: center;
+border: 1px rgb(65, 124, 143) solid;
+}
+
+.super-container {
+margin: 0 auto;
+width: 640px;
+
+background: #fff;
+}

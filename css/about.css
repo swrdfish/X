@@ -1,0 +1,33 @@
+#background-texture {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -99;
+    background: url('../image/dot.png');
+    opacity: 0.3;
+}
+#background-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -100;
+    background: url('../image/bg4.jpg') no-repeat transparent;
+    background-size: cover;
+    opacity: 0.7;
+    background-position: 0 0;
+}
+
+
+.contents {
+width: 50%;
+font-size: 2em;
+font-family: 'Roboto Slab', sans-sherif;
+color: #686868;
+padding: 3%;
+margin: 5%;
+margin-top: 10%;
+}

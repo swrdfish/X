@@ -1,0 +1,86 @@
+ body {
+    background: none repeat scroll 0 0 #2A2A2A;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+#nav ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    color: #FFFFFF;
+    font-family: 'Roboto Slab',serif;
+    list-style: none outside none;
+    overflow: hidden;
+    width: 45%;
+    margin-top: 2%;
+}
+
+span.nav:hover {
+      background:#FFFFFF;
+      color: #2e2e2e;
+}
+#logo {
+    color: #BBBBBB;
+    font-family: 'Limelight', cursive;
+    width: 40%;
+    overflow: hidden;
+
+}
+#description {
+    color: #CCCCCC;
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    overflow: hidden;
+    width: 40%;
+    margin-top: -0.5%;
+    }
+#credits {
+    color: #aaaaaa;
+    font-family: sans-serif;
+    font-weight: lighter;
+    overflow: hidden;
+    width: 20%;
+    margin-top: 1%;
+}
+.container {
+    margin-top: 4%;
+    margin-left: 5%;
+}
+#background-texture {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -99;
+    background: url('../image/dot.png');
+    opacity: 0.3;
+}
+#background-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -100;
+    background: url('../image/bg2.jpg') no-repeat transparent;
+    background-size: cover;
+    opacity: 0.7;
+    background-position: 0 20%;
+}
+
+.logo {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #2E2E2E;
+    font-size: 1.5em;
+}
+.description {
+    background: none repeat scroll 0 0 #DDDDDD;
+    color: #2E2E2E;
+}
